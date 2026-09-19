@@ -1,0 +1,27 @@
+{
+  "name": "tft-transportation-form",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@vercel/postgres": "latest",
+    "bcryptjs": "latest",
+    "jose": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vercel/node": "latest",
+    "typescript": "latest"
+  }
+}
